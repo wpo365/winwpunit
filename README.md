@@ -6,7 +6,7 @@ Since I didn't find any useful scripts for executing PHP Unit Tests for my WordP
 
 ## Synopsis
 
-With the script at hand, it is possible to execute php unit tests for WordPress locally on a Windows workstation, assuming that your plugin is available on GitHub (if not, you probably would need to tweak the script). This should save you some time compared to uploading it e.g. to travis.ci. The script helps automating a steps that are normally executed using WP-CLI such as **scaffold plugin-tests** and **bin/install-wp-tests.sh**. But WP-CLI scripts require a Linux subsystem on Windows 10, which I at least consider a bit of a stretch. Hence I came up with the following solution.
+With the script at hand, it is possible to execute php unit tests for WordPress locally on a Windows workstation, assuming that your plugin is available on GitHub (if not, you probably would need to tweak the script). This should save you some time compared to uploading it e.g. to travis.ci. The script helps automating the steps that are normally executed using WP-CLI such as **scaffold plugin-tests** and **bin/install-wp-tests.sh**. But WP-CLI scripts require a Linux subsystem on Windows 10, which I at least consider a bit of a stretch. Hence I came up with the following solution.
 
 ### One time plugin project configuration
 
@@ -54,9 +54,9 @@ After running the script (with parameter -Setup set to $true), the plugin's fold
 3. [mysql e.g. as part of WAMP](http://www.wampserver.com/en/)
 4. Make sure that your PATH environment variable can find PHP, composer, git, mysql etc. On my local machine, I needed to add the following entries manually:
 
-* [PHP.exe](C:\wamp\bin\php\php7.0.23)
-* [Composer](C:\Users\mvwie\AppData\Roaming\Composer\vendor\bin)
-* [MySql](C:\Users\mvwie\AppData\Roaming\Composer\vendor\bin)
+* PHP.exe --> C:\wamp\bin\php\php7.0.23
+* Composer --> C:\Users\mvwie\AppData\Roaming\Composer\vendor\bin
+* MySql --> C:\Users\mvwie\AppData\Roaming\Composer\vendor\bin
 
 ### Important
 
