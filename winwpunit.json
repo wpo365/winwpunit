@@ -1,0 +1,22 @@
+{
+    "config": {
+        "env": "local",
+        "dir": "C:\\projects\\plugin.unittest",
+        "tasks": {
+            "git": {
+                "plugin": {
+                    "userName": "wpo365",
+                    "repoName": "wpo365-login",
+                    "branch": "develop"
+                }
+            },
+            "mysql": {
+                "dbHost": "localhost",
+                "dbUser": "root",
+                "dbUserPw": "",
+                "dbName": "test",
+                "dbPrefix": "wp_"
+            }
+        }
+    }
+}
