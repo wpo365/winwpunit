@@ -73,7 +73,7 @@ PHP and WordPress that you use may require you to change the required version of
 7. Download and add [test-my-unit-test.php](sample-files/test-my-unit-test.php) to the **tests** folder
 8. Commit changes
 9. Clone this project to your local machine
-10. Update winwpunit.jsonf
+10. Update winwpunit.json
 
 ### Automated unit test execution environment setup
 
