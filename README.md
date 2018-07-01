@@ -43,11 +43,11 @@ After running initial setup, the plugin's folder structure inside the working di
 ## Getting started
 
 1. Add a folder called **tests** to your plugin's project
-2. Add the following file to the **tests** folder: [composer.json](sample.files/composer.json)
-3. Add the following file to the **tests** folder: [bootstrap.php](sample.files/bootstrap.php)
-4. Add the following file to the **tests** folder: [phpunit.xml](sample.files/phpunit.xml)
-5. Add the following file to the **tests** folder: [wp-tests-config.php](sample.files/wp-tests-config.php)
-6. Add the following file to the **tests** folder: [test-my-unit-test.php](sample.files/test-my-unit-test.php)
+2. Add the following file to the **tests** folder: [composer.json](sample-files/composer.json)
+3. Add the following file to the **tests** folder: [bootstrap.php](sample-files/bootstrap.php)
+4. Add the following file to the **tests** folder: [phpunit.xml](sample-files/phpunit.xml)
+5. Add the following file to the **tests** folder: [wp-tests-config.php](sample-files/wp-tests-config.php)
+6. Add the following file to the **tests** folder: [test-my-unit-test.php](sample-files/test-my-unit-test.php)
 7. Update the database settings on line 35-38 **tests\wp-tests-config.php**
 8. Clone this project to your local machine
 9. Update winwpunit.json
